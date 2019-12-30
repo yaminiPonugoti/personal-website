@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 class HomePage extends Component {
   render() {
+    <img src={ require('./mypic.jpg') } />
     return (
       <div>
-        Home page
+        Hi, I am Yamini Ponugoti, an enthusiastic, inquisitive junior at Purdue University
+        majoring in Computer Science!
       </div>
     )
   }
